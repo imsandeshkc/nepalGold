@@ -5,3 +5,15 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
