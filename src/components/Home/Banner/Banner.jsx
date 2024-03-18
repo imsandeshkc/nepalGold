@@ -4,11 +4,11 @@ import './banner.css'
 const Banner = () => {
   return (
     <div className='banner'>
-        <span className='banner-tel'>
-            Tel +977-1-4532270
+        <span className='banner-top'>
+            Tel: +977-1-4532270
         </span>
-        <span className='banner-email'>
-            Email info@fenegosida.org
+        <span className='banner-top'>
+            Email: info@fenegosida.org
         </span>
     </div>
   )
