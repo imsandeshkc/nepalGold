@@ -1,12 +1,36 @@
 .header {
-    margin: 1rem;
+    /* background-color: rgb(240, 240, 240); */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
-.logo {
+.navLists {
+    width: 100%;
+    display: flex;
+}
+
+.navItems {
+    padding: 8px;
+    list-style: none;
+}
+
+.navLink {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
     align-items: center;
+    display: flex;
     justify-content: center;
-    cursor: pointer;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: darkred;
+    background-color: rgb(240, 240, 240);
+    transition: 0.3s ease;
+    border-radius: 10px;
+    transform:scale(1.2)
 }

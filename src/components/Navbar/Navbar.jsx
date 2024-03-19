@@ -3,10 +3,10 @@ import './navbar.css';
 
 import logo from "../../assets/logo of nepalgold.png";
 
+import { MdOutlineArrowDropDown } from "react-icons/md";
+
 const Navbar = () => {
   return (
-    <section className='navBarSection'>
-
         <div className="header">
 
             <div className="logoDiv">
@@ -18,37 +18,46 @@ const Navbar = () => {
             </div>
 
             <div className="list">
-                <ul className='navLists flex'>
+
+                <ul className='navLists'>
+
                     <li className='navItems'>
                         <a href='1' className='navLink'>Home</a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'> About US</a>
+                        <a href='1' className='navLink'>About US<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'>Members</a>
+                        <a href='1' className='navLink'>Members<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'>Rates</a>
+                        <a href='1' className='navLink'>Rates<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'>Training</a>
+                        <a href='1' className='navLink'>Training<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'>Downloads</a>
+                        <a href='1' className='navLink'>Downloads<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
-                        <a href='1' className='navLink'>News</a>
+                        <a href='1' className='navLink'>News<MdOutlineArrowDropDown className='icon'/></a>
                     </li>
+
                     <li className='navItems'>
                         <a href='1' className='navLink'>Contact US</a>
                     </li>
+
                 </ul>
+
             </div>
 
         </div>
-
-    </section>
   )
 }
 
