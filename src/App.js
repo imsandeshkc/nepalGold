@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import Banner from './components/Home/Banner/Banner'
+import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 
 const App = () => {

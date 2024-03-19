@@ -7,22 +7,21 @@
 }
 
 .navLists {
-    width: 100%;
     display: flex;
 }
 
 .navItems {
     padding: 8px;
     list-style: none;
+    position: relative;
 }
 
 .navLink {
     color: black;
     font-size: 18px;
     font-weight: 500;
-    align-items: center;
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 8px;
     text-decoration: none;
 }
@@ -33,4 +32,19 @@
     transition: 0.3s ease;
     border-radius: 10px;
     transform:scale(1.1)
+}
+
+
+.dropdown_btn {
+    list-style: none;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #969595;
+}
+
+.dropdown_btn ul {
+    display: block;
+    text-decoration: none;
 }
