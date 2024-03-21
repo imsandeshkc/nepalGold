@@ -24,6 +24,7 @@
     align-items: center;
     padding: 8px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .navLink:hover {
@@ -34,17 +35,23 @@
     transform:scale(1.1)
 }
 
-
 .dropdown_btn {
-    list-style: none;
-    display: block;
+    background: wheat;
+    padding: 9px;
     position: absolute;
-    left: 0;
-    top: 100%;
-    background: #969595;
+    left: 14;
+    top: 24;
+    border-radius: 10px;
 }
 
-.dropdown_btn ul {
-    display: block;
-    text-decoration: none;
+.dropdown_li {
+    list-style: none;
+    padding: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dropdown_li:hover {
+    background: lightblue;
+    border-radius: 10px;
 }
