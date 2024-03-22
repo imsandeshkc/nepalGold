@@ -8,12 +8,15 @@
 
 .navLists {
     display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 8;
 }
 
 .navItems {
     padding: 8px;
     list-style: none;
-    position: relative;
+    
 }
 
 .navLink {
@@ -36,22 +39,55 @@
 }
 
 .dropdown_btn {
-    background: wheat;
-    padding: 9px;
-    position: absolute;
-    left: 14;
-    top: 24;
+    /* background: wheat; */
+
+    font-weight: 600;
+
     border-radius: 10px;
 }
 
 .dropdown_li {
     list-style: none;
-    padding: 6px;
-    font-size: 15px;
+
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(75 85 99);
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+
     cursor: pointer;
 }
 
 .dropdown_li:hover {
-    background: lightblue;
-    border-radius: 10px;
+    color: rgb(238, 182, 77);
+}
+
+.navSub1 {
+    position: absolute;
+    top: 5rem;
+    display: none;
+}
+
+.navSub1:hover {
+    display: block;
+}
+
+.navSub11 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.navSub111 {
+    width: 1rem;
+    height: 1rem;
+    left: 0.75rem;
+    position: absolute;
+    margin-top: 0.25rem;
+    background: wheat;
+    transform: rotate(45deg);
+}
+
+.navSub2{
+    background: wheat;
+    padding: 0.875rem;
 }
